@@ -6,24 +6,24 @@ The system dynamically fetches latest news articles, converts them into embeddin
 
 Tech Stack:
 
-Python
-Streamlit
-NewsAPI
-SentenceTransformers
-FAISS
-Ollama
+Python,
+Streamlit,
+NewsAPI,
+SentenceTransformers,
+FAISS,
+Ollama,
 Llama3
 
 Workflow:
 
 User Query
-↓
+>
 Topic Extraction
-↓
+>
 Fetch News
-↓
+>
 Generate Embeddings
-↓
+>
 FAISS Retrieval
-↓
+>
 Llama3 Response Generation
